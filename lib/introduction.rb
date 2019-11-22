@@ -7,15 +7,15 @@ name = "Josh", "Dan"
 language = "Ember.js", "Python"
 
 def introduction(name)
-  puts "My name is #{name}"
+  puts "Hi, my name is #{name}"
 end 
 
 def introduction_with_language(name,language)
-  puts "my name is #{name}, I am learning to code in #{language}."
+  puts "Hi, my name is #{name}, I am learning to code in #{language}."
 end 
 
 def introduction_with_language_optional(name, language = "Ruby")
-  puts "my name is #{name}, I am learning to code in #{language}."
+  puts "Hi, my name is #{name}, I am learning to code in #{language}."
 end 
 
 
